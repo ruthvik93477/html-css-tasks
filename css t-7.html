@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Task-7 CSS</title>
+    </head>
+    <body class="main">
+        <div class="inner-div">
+            <form>
+                <table>
+                    <tr>
+                        <td class="left">Name:</td>
+                        <td><input type="text" placeholder="Enter your name:" class="right"></td>
+                    </tr>
+                    <tr>
+                        <td class="left">Email:</td>
+                        <td><input type="email" placeholder="Enter your email:" class="right"></td>
+                    </tr>
+                    <tr>
+                        <td class="left">Password:</td>
+                        <td><input type="password" class="right"></td>
+                    </tr>
+                    <tr>
+                        <td class="left">Phone Number:</td>
+                        <td><input type="number" class="right"></td>
+                    </tr>
+                    <tr>
+                        <td class="left">Gender:</td>
+                        <td class="left">
+                            <label class="rad">Male</label>
+                            <input type="radio" name="gender">
+                            <label>Female</label>
+                            <input type="radio" name="gender">
+                            <label>Other</label>
+                            <input type="radio" name="gender">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="left">Language:</td>
+                        <td>
+                            <select class="right">
+                                <option>choose your languague</option>
+                                <option>Telugu</option>
+                                <option>Hindi</option>
+                                <option>English</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="left">Zip Code:</td>
+                        <td><input type="number" class="right"></td>
+                    </tr>
+                    <tr>
+                        <td class="left">About:</td>
+                        <td><input type="text" placeholder="Write about yourself....." class="right"></td>
+                    </tr>
+                </table>
+            </form>
+            <br>
+            <button class="button"><b>Register</b></button>
+        </div>
+    </body>
+    <style>
+        .main{
+            background-color: rgba(169, 22, 69, 0.9);
+        }
+        .inner-div{
+            background-color: yellow;
+            width: 600px;
+            background-color: rgb(91, 2, 41);
+            height: 500px;
+            padding-left: 200px;
+            margin-left: 370px;
+            margin-top: 100px;   
+            padding-top: 50px;    
+        }
+        .left{
+            color: white;
+        }
+        .right{
+            margin-left: 10px;
+            width: 200px;
+            height: 30px;
+            margin-bottom: 10px;
+        }
+        .button{
+            width: 330px;
+            height: 40px;
+            border-radius: 8px;
+            border: none;
+        }
+        .rad{
+            margin-left: 10px;
+            margin-bottom: 10px;
+        }
+    </style>
+</html>

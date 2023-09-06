@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Task-5</title>
+    </head>
+    <body>
+        <div class="main-box">
+            <h1 class="head">Registration form</h1>
+            <form>
+                <table bordercolor="black" border="1" class="table-1">
+                    <tr>
+                        <td class="box">First Name:</td>
+                        <td><input type="text" class="inp"></td>
+                    </tr>
+                    <tr>
+                        <td class="box">Last Name:</td>
+                        <td><input type="text" class="inp"></td>
+                    </tr>
+                    <tr>
+                        <td class="box">Email:</td>
+                        <td><input type="email" class="inp"></td>
+                    </tr>
+                    <tr>
+                        <td class="box">Password:</td>
+                        <td><input type="password" class="inp"></td>
+                    </tr>
+                    <tr>
+                        <td class="box">Re-Password:</td>
+                        <td><input type="password" class="inp"></td>
+                    </tr>
+                    <tr>
+                        <td class="box-1">Gender:</td>
+                        <td>
+                            <input type="radio" name="gender">Male<br><hr>
+                            <input type="radio" name="gender">Female
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="box">Age</td>
+                        <td><input class="inp" type="number"></td>
+                    </tr>
+                    <tr>
+                        <td class="box">Address</td>
+                        <td><input type="adress" class="box-2"></td>
+                    </tr>
+                    <tr>
+                        <td class="box">State</td>
+                        <td><input type="text" class="inp"></td>
+                    </tr>
+                    <tr>
+                        <td class="box">Country</td>
+                        <td>
+                            <label for="location"></label>
+                            <select name="location" id="location">
+                                <option>Choose your Country</option>
+                                <option value="India">India</option>
+                                <option value="Russia">Russia</option>
+                                <option value="Israel">Israel</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="box">Languages known</td>
+                        <td>
+                            <input type="checkbox">
+                            <label>English</label>
+                            <input type="checkbox">
+                            <label>Telugu</label>
+                            <input type="checkbox">
+                            <label>Kannada</label>
+                            <input type="checkbox">
+                            <label>Hindi</label>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+            <table bordercolor="black" border="1" style="width: 81.21%;" class="table-1">
+                <tr>
+                    <td>
+                        <input type="checkbox">
+                        <label>Hearby I declare that all the given details are true</label>
+                    </td>
+                </tr>
+            </table>
+            <table bordercolor="black" border="1" style="width: 81.21%;" class="table-1">
+                <tr>
+                    <td class="d-1">
+                        <label>Login in to</label>
+                        <a href="https://ethnus.com/">Ethnus</a>
+                        <label>website</label>
+                    </td>
+                </tr>
+            </table>
+            <br>
+            <input type="submit" value="Register" class="reg">
+        </div>
+    </body>
+    <style>
+        .box{
+            text-align: center;
+            width: 190px;
+            font-weight: bold;
+        }
+        .inp{
+            width: 690px;
+        }
+        .box-1{
+            height: 50px;
+            text-align: center;
+            font-weight: bold;
+        }
+        .box-2{
+            height: 120px;
+            width:690px;
+        }
+        .d-1{
+            text-align: right;
+        }
+        .head{
+            color: blue;
+            margin-left: 320px;
+        }
+        .main-box{
+            margin-top: 80px;
+            margin-bottom: 71px;
+            margin-left: 320px;
+            margin-right: 100px;
+        }
+        .reg{
+            margin-left: 410px;
+        }
+        .table-1{
+            border-collapse: collapse;
+        }
+    </style>
+</html>
